@@ -1,0 +1,14 @@
+#version: '1'
+svn:
+  image: rkrx/docker-subversion
+  expose:
+   - "80"
+  volumes:
+   - ./svnRepo:/var/svn/repos
+   - ./svnConf:/etc/svn
+reviki:
+  build: .
+  ports:
+   - "8080"
+#  depends_on:
+#   - svn

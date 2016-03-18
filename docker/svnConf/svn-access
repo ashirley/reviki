@@ -1,0 +1,3 @@
+[/]
+# Allow everyone read on the entire repository
+* = rw

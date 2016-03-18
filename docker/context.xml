@@ -1,0 +1,4 @@
+<Context docBase="/reviki/reviki.war">
+  <Parameter name="javax.servlet.jsp.jstl.fmt.timeZone" value="Europe/London" />
+  <Parameter name="reviki-data-dir" value="/reviki/test-data" />
+</Context>
